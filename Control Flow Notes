@@ -1,0 +1,67 @@
+IF STATEMENT
+• performs a block of code if it's condition evaluates to be true.
+
+Code Example:
+  public class Main{
+    public static void main(String [] args){
+      int age = 25;
+      if(age <18){
+        System.out.println("You are unable to join.");
+    }else if(age >= 18){
+        System.out.println("You are welcome!");
+    }
+  }
+}
+
+SWITCH STATEMENT
+• allows a variable to be tested for equality against a list of values.
+
+Code Example:
+public class Main{
+    public static void main(String [] args){
+        String day = "Pizza";
+        switch(day){
+            case "Sunday": System.out.println("It is Sunday.");
+            break;
+            case "Monday": System.out.println("It is Monday.");
+            break;
+            case "Tuesday": System.out.println("It is Tuesday.");
+            break;
+            case "Wednesday": System.out.println("It is Wenesday.");
+            break;
+            case "Thursday": System.out.println("It is Thursday.");
+            break;
+            case "Friday": System.out.println("It is Friday.");
+            break;
+            case "Saturday": System.out.println("It is Saturday.");
+            break;
+            default: System.out.println("This is not a day!");
+        }
+    }
+}
+
+LOGICAL OPERATORS 
+• operators that combine multiple boolean expressions or values and provide a single boolean output.
+Types of Logical Operators:
+ i. && = (AND) both conditions must be true.
+ ii. || = (OR) either condition must be true.
+ iii. ! = (NOT) reverses the result, turns false if the result is true.
+
+WHILE LOOPS
+• executes a block of code as long as it's condition remains true.
+
+Code Example:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String [] args){
+        Scanner scanner = new Scanner(System.in);
+        String name = " ";
+        while(name.isBlank()){
+            System.out.println("What is your name?");
+            name = scanner.nextLine();
+        }
+        System.out.println("Hello " + name);
+    }
+}
+
