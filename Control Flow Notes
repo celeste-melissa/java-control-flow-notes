@@ -65,3 +65,28 @@ public class Main{
     }
 }
 
+DO WHILE LOOP
+• ensures the block of code is executed AT LEAST ONCE before the condition within the while satement is test.
+
+Code Example:
+
+do {
+    // Statements to be executed
+} while (condition);
+
+FOR LOOP 
+• executes a block of code a limited amount of times. There are three parts that must be included within
+the paratheses: counter, condition, and 
+
+Code Example:
+
+public class Main {
+    public static void main(String[] args) {
+        for(int i = 10; i >= 1; i--){
+            System.out.println(i);
+        }
+        System.out.println("HAPPY NEW YEAR");
+    }
+}
+
+
